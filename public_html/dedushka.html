@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+    </head>
+    <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-4">Первая колонка</div>
+            <div class="container">  
+                <div class="row">
+                        <div class="col-sm-2">1</div>
+                        <div class="col-sm-2">2</div>
+                </div>
+            </div>
+            <div class="col-sm-4">Вторая колонка</div>
+            <div class="col-sm-4">Третья колонка</div>
+        </div>
+        </div>
+        <form role="form">
+            <div class="form-group">
+             <label for="email">Email</label>
+             <input type="email" class="form-control" id="email" placeholder="Введите email">
+             <p class="help-block">Пример строки с подсказкой</p>
+            </div>
+            <div class="form-group">
+             <label for="pass">Пароль</label>
+             <input type="password" class="form-control" id="pass" placeholder="Пароль">
+            </div>
+            <div class="checkbox">
+             <label><input type="checkbox"> Чекбокс</label>
+            </div>
+            <button type="submit" class="btn btn-success">Войти</button>
+        </form>
+        
+        <select class="form-control" multiple>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+    </body>
+    
+    <a href="#">Входящие <span class="badge">42</span></a>
+    
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Выпадающий список
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JavaScript</a></li>
+        </ul>
+        
+        <button class="btn btn-info btn-lg" type="button" data-toggle="modal" data-target="#myModal">Показать всплывающее окно</button>
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Заголовок окна</h4>
+                </div>
+                <div class="modal-body">Текст уведомления</div>
+                <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
+                </div>
+                </div>
+            </div>
+    </div>
+</html>
